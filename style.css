@@ -1,0 +1,585 @@
+    body {
+        font-size: 12px;
+        color: #606060;
+        font-family: light;
+    }
+    
+    h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    button {
+        font-size: 11px;
+        background-color: gray;
+        color: white;
+    }
+    
+    a {
+        color: gray;
+    }
+    
+    p {
+        padding: 10px;
+    }
+    
+    link {
+        font-size: 11px;
+        color: #c95555;
+    }
+    
+    .linc {
+        color: blue;
+    }
+    
+    .flex-container {
+        background-color: whitesmoke;
+        padding: 10px;
+        min-height: 50vh;
+        justify-content: right;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    #menu ul li a {
+        border-right: 1px solid gray;
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+    
+    #menu {
+        flex: 1;
+        text-align: right;
+    }
+    
+    #menu ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    
+    nav {
+        display: flex;
+        padding: 1% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #menu ul li {
+        display: inline-flex;
+    }
+    
+    .button11 {
+        background-color: white;
+        border: white;
+    }
+    
+    .button12 {
+        background-color: white;
+        border: white;
+    }
+    
+    .buton1 {
+        height: 35px;
+        width: 90px;
+        border: 1px solid;
+    }
+    
+    .flex-container2 div {
+        display: inline-flex;
+    }
+    
+    .box {
+        padding-left: 650px;
+        width: 400px;
+        height: 100px;
+        margin-top: -180px;
+    }
+    
+    .container-4 input#search {
+        width: 275px;
+        height: 37px;
+        background: whitesmoke;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-left: -45px;
+    }
+    
+    .container-4 {
+        width: 500px;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    
+    .container-4 button.icon {
+        padding-left: 0px;
+        width: 90px;
+        height: 37px;
+        border: none;
+    }
+    
+    .bod {
+        text-align: center;
+        padding-top: 7%;
+    }
+    
+    .flex-container1 {
+        background-color: white;
+        justify-content: center;
+        align-items: flex-start flex;
+        text-align: center;
+        padding: 1px;
+    }
+    
+    .item-b ul li p {
+        display: block;
+        text-decoration: none;
+        padding: 0px 30px;
+        margin-right: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .item-b ul li {
+        display: inline-flex;
+    }
+    
+    .item-c ul li p {
+        display: block;
+        text-decoration: none;
+        padding: 0px 120px;
+    }
+    
+    .item-c ul li {
+        display: inline-flex;
+    }
+    
+    .flex-container2 {
+        background: white;
+        padding: 60px;
+        text-align: center;
+        border-top: 1px solid lightblue;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .flex-container2 div {
+        display: inline-flex;
+    }
+    
+    .item-a {
+        text-align: center;
+    }
+    
+    .item-d {
+        padding-left: 1%;
+    }
+    
+    .flex-container3 {
+        background-color: whitesmoke;
+        justify-content: right;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .flex-container5 {
+        background-color: white;
+        justify-content: right;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .box1 {
+        text-align: center;
+        border-bottom: 1px solid lightblue;
+        padding: 20px;
+    }
+    
+    .flex-container4 {
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-top: 1px solid lightblue;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .flex-container4 div {
+        margin: 70px;
+    }
+    
+    .item-g {
+        padding: 25px 10px;
+        float: right;
+        margin-top: -20px;
+    }
+    
+    .item-h {
+        padding: 25px 10px;
+        float: right;
+        margin-top: -20px;
+        color: slateblue;
+        text-decoration: underline;
+    }
+    
+    .button-6 {
+        background-color: gray;
+        border: none;
+        color: white;
+        display: inline-flex;
+        border: 1px solid gray;
+        cursor: pointer;
+        padding: 10px 40px;
+        margin-left: 275px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .button-8 {
+        background-color: goldenrod;
+        border: 1px solid;
+        color: white;
+        cursor: pointer;
+        padding: 10px 25px;
+        text-decoration: none;
+        display: flex;
+        margin-left: 150px;
+        margin-top: -110px;
+    }
+    
+    .button-9 {
+        background-color: red;
+        border: 1px solid;
+        color: white;
+        cursor: pointer;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: flex;
+        margin-left: 150px;
+        margin-top: 35px;
+    }
+    
+    .container {
+        padding: 40px;
+        background: #fff;
+        text-align: center;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .container input#search {
+        width: 240px;
+        height: 35px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+    
+    .container input#search1 {
+        width: 240px;
+        height: 35px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+    
+    .container p {
+        margin-right: 15px;
+    }
+    
+    #sear2 {
+        color: lightblue;
+    }
+    
+    #sear1 {
+        margin-right: 25px;
+        margin-top: -20px;
+    }
+    
+    .container button.icon1 {
+        width: 120px;
+        height: 30px;
+        border: none;
+        background: gray;
+        cursor: pointer;
+        margin-left: -125px;
+    }
+    
+    .container button.icon {
+        width: 120px;
+        height: 30px;
+        border: none;
+        background: lightgray;
+        float: right;
+        margin-right: 590px;
+        margin-top: -30px;
+    }
+    
+    .container2 {
+        padding: 40px;
+        background: #fff;
+        text-align: center;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .container2 input#sea9 {
+        width: 480px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: -40px;
+        margin-top: 25px;
+    }
+    
+    .container2 input#sea10 {
+        width: 480px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: -40px;
+        margin-top: 25px;
+    }
+    
+    .container2 input#sea1 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: 25px;
+    }
+    
+    .container2 input#sea2 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: -40px;
+    }
+    
+    .container2 select#sea3 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    
+    .container2 input#sea4 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: -40px;
+    }
+    
+    .container2 input#sea5 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    
+    .container2 input#sea6 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-right: -40px;
+    }
+    
+    .container2 p {
+        margin-right: -40px;
+        margin-top: 5px;
+    }
+    
+    #sea7 {
+        margin-right: 220px;
+        margin-top: -30px;
+    }
+    
+    #sea8 {
+        color: lightblue;
+    }
+    
+    #sea16 {
+        color: lightblue;
+    }
+    
+    #sea17 {
+        color: lightblue;
+    }
+    
+    .container2 button.icon1 {
+        width: 120px;
+        height: 30px;
+        border: none;
+        background: gray;
+        margin-top: 8px;
+    }
+    
+    .container2 button.icon {
+        width: 120px;
+        height: 30px;
+        border: none;
+        background: lightgray;
+        margin-right: -40px;
+    }
+    
+    .footer_menu a {
+        border-right: 1px solid gray;
+        text-decoration: none;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 1px 15px;
+    }
+    
+    .footer_menu {
+        display: inline-flex;
+    }
+    
+    .container_footer {
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .flex-container9 {
+        display: flex;
+        background-color: white;
+        padding: 150px;
+        justify-content: space-evenly;
+        border-top: 1px solid lightblue;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .flex-container9 div {
+        margin-top: -120px;
+    }
+    
+    .box2 {
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 17px;
+    }
+    
+    #cent {
+        text-align: center;
+    }
+    
+    .container3 {
+        padding: 30px;
+        background: #fff;
+        text-align: center;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .container3 input#sea11 {
+        width: 225px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-left: -200px;
+    }
+    
+    .container3 input#sea12 {
+        width: 425px;
+        height: 75px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-left: -7px;
+        margin-top: 15px;
+    }
+    
+    .container3 form input#sea12::placeholder {
+        top: 5px;
+        position: absolute;
+    }
+    
+    .container3 form input#sea14::placeholder {
+        top: 5px;
+        position: absolute;
+    }
+    
+    .container3 input#sea13 {
+        width: 425px;
+        height: 30px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-left: -7px;
+        margin-top: 15px;
+    }
+    
+    .container3 input#sea14 {
+        width: 425px;
+        height: 75px;
+        background: white;
+        border: 1px solid gray;
+        font-size: 10pt;
+        margin-left: -7px;
+        margin-top: 15px;
+    }
+    
+    .container3 button.icon1 {
+        width: 120px;
+        height: 30px;
+        border: none;
+        background: lightcoral;
+        margin-top: 20px;
+    }
+    
+    .container3 button.icon {
+        width: 120px;
+        height: 30px;
+        border: none;
+        background: lightgray;
+        margin-right: -40px;
+    }
+    
+    .box3 {
+        text-align: center;
+        background-color: whitesmoke;
+        padding-bottom: 40px;
+        border-top: 1px solid lightblue;
+    }
+    
+    .flex-container10 {
+        padding: 1px;
+        border-bottom: 1px solid lightblue;
+    }
+    
+    .flex-container10 div {
+        margin-top: -450px;
+        margin-left: 700px;
+    }
+    
+    .flex-container10 .icon1 {
+        border: none;
+        width: 85px;
+        height: 30px;
+    }
+    
+    #sea15 {
+        text-decoration: underline;
+        color: blue;
+        margin-left: 70px;
+        margin-top: -46px;
+        font-family: Arial;
+        font-weight: bold;
+    }
