@@ -88,6 +88,7 @@
         height: 35px;
         width: 90px;
         border: 1px solid;
+        background-color: rgb(98, 98, 98);
     }
     
     .flex-container2 div {
@@ -118,9 +119,10 @@
     
     .container-4 button.icon {
         padding-left: 0px;
-        width: 90px;
+        width: 105px;
         height: 37px;
         border: none;
+        background-color: rgb(98, 98, 98);
     }
     
     .bod {
@@ -224,7 +226,7 @@
     }
     
     .button-6 {
-        background-color: gray;
+        background-color: rgb(98, 98, 98);
         border: none;
         color: white;
         display: inline-flex;
@@ -237,7 +239,7 @@
     }
     
     .button-8 {
-        background-color: darkgoldenrod;
+        background-color: #649947;
         border: 1px solid;
         color: white;
         cursor: pointer;
@@ -249,7 +251,7 @@
     }
     
     .button-9 {
-        background-color: tomato;
+        background-color: #f85d56;
         border: 1px solid;
         color: white;
         cursor: pointer;
@@ -304,7 +306,7 @@
         width: 120px;
         height: 30px;
         border: none;
-        background: gray;
+        background: rgb(98, 98, 98);
         cursor: pointer;
         margin-left: -125px;
     }
@@ -428,7 +430,7 @@
         width: 120px;
         height: 30px;
         border: none;
-        background: gray;
+        background: rgb(98, 98, 98);
         margin-top: 8px;
     }
     
@@ -573,6 +575,7 @@
         border: none;
         width: 100px;
         height: 30px;
+        background-color: rgb(98, 98, 98);
     }
     
     #sea15 {
