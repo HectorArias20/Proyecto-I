@@ -237,11 +237,11 @@
     }
     
     .button-8 {
-        background-color: goldenrod;
+        background-color: darkgoldenrod;
         border: 1px solid;
         color: white;
         cursor: pointer;
-        padding: 10px 25px;
+        padding: 10px 30px;
         text-decoration: none;
         display: flex;
         margin-left: 150px;
@@ -249,11 +249,11 @@
     }
     
     .button-9 {
-        background-color: red;
+        background-color: tomato;
         border: 1px solid;
         color: white;
         cursor: pointer;
-        padding: 10px 20px;
+        padding: 10px 25px;
         text-decoration: none;
         display: flex;
         margin-left: 150px;
@@ -540,7 +540,7 @@
         width: 120px;
         height: 30px;
         border: none;
-        background: lightcoral;
+        background-color: gray;
         margin-top: 20px;
     }
     
@@ -571,7 +571,7 @@
     
     .flex-container10 .icon1 {
         border: none;
-        width: 85px;
+        width: 100px;
         height: 30px;
     }
     
