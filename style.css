@@ -109,12 +109,7 @@
         border: 1px solid gray;
         font-size: 10pt;
         margin-left: -45px;
-    }
-    
-    .container-4 {
-        width: 500px;
-        vertical-align: middle;
-        white-space: nowrap;
+        position: relative;
     }
     
     .container-4 button.icon {
@@ -123,6 +118,7 @@
         height: 37px;
         border: none;
         background-color: rgb(98, 98, 98);
+        position: relative;
     }
     
     .bod {
@@ -302,23 +298,23 @@
         margin-top: -20px;
     }
     
-    .container button.icon1 {
-        width: 120px;
-        height: 30px;
+    .container a.icon1 {
         border: none;
+        color: white;
         background: rgb(98, 98, 98);
         cursor: pointer;
         margin-left: -125px;
+        text-decoration: none;
+        padding: 10px 40px;
     }
     
-    .container button.icon {
-        width: 120px;
-        height: 30px;
+    .container a.icon {
         border: none;
+        color: white;
         background: lightgray;
-        float: right;
-        margin-right: 590px;
-        margin-top: -30px;
+        margin-right: -135px;
+        text-decoration: none;
+        padding: 10px 35px;
     }
     
     .container2 {
@@ -426,20 +422,22 @@
         color: lightblue;
     }
     
-    .container2 button.icon1 {
-        width: 120px;
-        height: 30px;
+    .container2 a.icon1 {
         border: none;
         background: rgb(98, 98, 98);
         margin-top: 8px;
+        color: white;
+        padding: 10px 35px;
+        text-decoration: none;
     }
     
-    .container2 button.icon {
-        width: 120px;
-        height: 30px;
+    .container2 a.icon {
         border: none;
         background: lightgray;
         margin-right: -40px;
+        color: white;
+        padding: 10px 35px;
+        text-decoration: none;
     }
     
     .footer_menu a {
